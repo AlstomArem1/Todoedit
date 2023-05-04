@@ -1,0 +1,47 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.StudentList  {
+    width: 400px;
+    height: 100%;
+    background: gray;
+    text-align: center;
+    padding: 30px 15px;
+   
+}
+.StudentList .Student {
+    font-size: 20px;
+    text-align: start;
+    margin-bottom: 10px;
+    color: #fff;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+    border-bottom: 1px solid red;
+}
+.StudentList .Student:hover {
+    width: 100%;
+    background: orange;
+}
+.StudentList .Student span{
+    width: 85%;
+    display: inline-block;
+    margin-left: 10px;
+}
+.FormAdd input{
+    width: 80%;
+    padding: 10px 0px;
+    margin-bottom: 10px;
+    border-radius: 12px;
+}
+.FormAdd button {
+    width: 20%;
+    padding: 9px 0px;
+    border-radius: 12px;
+}
